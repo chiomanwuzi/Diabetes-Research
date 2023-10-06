@@ -1,4 +1,6 @@
 
+#random forest tuning and model
+
 library(tidyverse) library(broom)
 augment(full_model) augment(min_model) augment(step_regression) plot(step_regression)
 set.seed(127)

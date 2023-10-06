@@ -1,4 +1,6 @@
 
+#lasso regression 
+
 set.seed(127)
 k_fold_lasso<- cv.glmnet(x_train_scale,y_train_scale, alpha = 1, nfolds = 10)
 #find the optimal lambda value by finding the minimum MSE optimal_lambda_lasso<- k_fold_lasso$lambda.min optimal_lambda_lasso_err<-k_fold_lasso$lambda.1se optimal_lambda_lasso

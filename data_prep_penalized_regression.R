@@ -1,3 +1,5 @@
+#final model df
+
 final_dataframe_scale<- final_dataframe
 numeric_var_scale <- sapply(final_dataframe_scale, is.numeric) final_dataframe_scale[numeric_var_scale] <- lapply(final_dataframe_scale[numeric_var_scale], scale)
 #creating training data set by selecting the output row values train_set_full_scale<-final_dataframe_scale[final_df_split,]

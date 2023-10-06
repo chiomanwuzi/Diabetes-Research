@@ -1,4 +1,5 @@
 
+# gbm model
 
 remove.packages(c("tidyr", "mice", "broom")) detach("package:mice", unload=TRUE) detach("package:broom", unload=TRUE) detach("package:tidyr", unload=TRUE) install.packages("tidyr")
 install.packages("gbm") library(gbm)

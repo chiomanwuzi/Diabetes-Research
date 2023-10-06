@@ -1,4 +1,5 @@
 
+#exploratory data analysis and tests
 
 #Load the Initial datasets
 diabetes_data_raw<- read_csv("Downloads/diabetes-prevalence.csv")

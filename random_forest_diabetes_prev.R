@@ -1,4 +1,5 @@
 
+#random forest tuning and model
 
 set.seed(766)
 rf_model<- randomForest::randomForest(diabetes_prevelance ~., data = train_set_full, ntree = 1000, type = "regression", localImp = TRUE)

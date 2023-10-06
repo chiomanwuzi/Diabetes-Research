@@ -1,4 +1,5 @@
 
+#collinearity and dimension reduction
 
 corr_plot_num<-cor(nutrition_impute_num_data, use= "everything")
 corrplot(corr_plot_num, method = "color") #cor.test(nutrition_impute_num_data, method = "kendall")

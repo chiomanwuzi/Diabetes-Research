@@ -1,3 +1,6 @@
+#ridge regression model
+
+
 set.seed(127)
 k_fold_ridge<- cv.glmnet(x_train_scale,y_train_scale,alpha = 0, nfolds= 40) #summary(k_fold_ridge)
 #find the optimal lambda value by finding the minimum MSE optimal_lambda_ridge<- k_fold_ridge$lambda.min optimal_lambda_ridge #

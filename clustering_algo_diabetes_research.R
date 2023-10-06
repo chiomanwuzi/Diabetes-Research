@@ -1,5 +1,6 @@
 
-```{r}
+# clustering algorithm
+
 set.seed(271) within_ss<- function(x){
   kmeans(nutrition_corr_final[, c(-59)], x, n= 100)$tot.withinss }
 num_clusters<- 2:15

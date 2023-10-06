@@ -1,7 +1,7 @@
 
 
+#model comparison and variable importance tests
 
-``` ```{r}
 ######TRAIN RMSE ACROSS CLUSTERS##########
 final_train_cluster<- cbind(step_cluster_train_rmse, back_cluster_train_rmse, train_tree_cluster_rmse, ridge_train_rmse_df, lasso_training_rmse, train_gbm_cluster_rmse)
 colnames(final_train_cluster)[1]<- "step_train_rmse" View(final_train_cluster)

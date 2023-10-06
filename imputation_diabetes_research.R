@@ -1,4 +1,7 @@
 
+
+#missing value imputation
+
 sum(is.na(nutrition_diabetes_merge))
 # 40% of the data is missing sum(is.na(nutrition_diabetes_merge))/sum(!is.na(nutrition_diabetes_merge))
 # count the number of missing values in each column colSums(is.na(nutrition_diabetes_merge))
